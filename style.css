@@ -1,0 +1,141 @@
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    object-fit: fill;
+    margin: 0;
+    z-index: -1;
+}
+
+body{
+    margin: 0;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 30vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-section{
+    text-align: center;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-size: auto 80vh;
+    background-position: center;
+
+    font-family: 'Stalinist One', cursive;
+}
+
+
+
+
+#navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    max-width: 20vw;
+    background-color: yellow;
+    text-align: center;
+    z-index: 1;
+    background-image: url("media/white-marble.jpg");
+}
+
+
+
+#THE_COLLEGE_DROPOUT_755{
+    background-image: url("media/the-college-dropout.jpg");
+    color: white; 
+    font-size: 0.7em; 
+}
+
+#LATE_REGISTRATION_700{
+    background-image: url("media/lake-registration.jpg");
+    color: white;
+    text-shadow: 3px 3px red;
+}
+
+#GRADUATION_1845{
+    background-image: url("media/graduation.jpg");
+}
+
+#MY_BEAUTIFUL_DARK_TWISTED_FANTASY_2811{
+    background-image: url("media/mbdtf.jpg");
+}
+
+#JESUS_IS_KING_622{
+    background-image: url("media/jesus-is-king.jpg");
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+#page-title{
+    margin-top: 1em;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#tcd-link{
+    margin: 0 1em;
+}
+
+#jik-link{
+    margin: 0 3.8em;
+}
+
+#lr-link{
+    margin: 0 2em;
+}
+
+#mbdtf-link{
+    margin: 0 1.5em;
+}
+
+#g-link{
+    margin: 0 2em;
+}
+
+
+
+@media (min-width: 400px){
+    #navbar{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        max-width: 20vw;
+        background-color: yellow;
+        text-align: center;
+        z-index: 1;
+        background-image: url("media/white-marble.jpg");
+    }
+}
